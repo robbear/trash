@@ -1,0 +1,9 @@
+{
+  "name": "trash",
+  "version": "1.0.0",
+  "description": "trash project",
+  "respository": {
+    "type": "git",
+    "url": "git://github.com/robbear/trash"
+  }
+}
