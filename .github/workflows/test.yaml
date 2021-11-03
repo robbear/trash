@@ -8,7 +8,7 @@ on:
     - cron: '11 3 * * *'
 
 jobs:
-  print-something
+  print-something:
     runs-on: ubuntu-latest
     steps:
       - name Do an echo
