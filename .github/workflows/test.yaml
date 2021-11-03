@@ -1,0 +1,15 @@
+name: Test Workflow
+
+# This workflow executes against the main branch every day at 03:11GMT,
+# and can be executed manually through the GitHub website.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 3 * * *'
+
+jobs:
+  print-something
+    runs-on: ubuntu-latest
+    steps:
+      - name Do an echo
+        run: echo "Just printing out something"
