@@ -1,7 +1,12 @@
 name: Test Workflow
 
-# This workflow executes against the main branch every day at 03:11GMT,
-# and can be executed manually through the GitHub website.
+# This workflow can be executed manually through the GitHub website or via a GitHub API call.
+#
+# curl -H POST /
+# -H "Authorization: token ghp_mytoken" /
+# -H "Accept: application /vnd.github.v3+json" /
+# https://api.github.com/repos/robbear/trash/actions/workflows/test.yaml/dispatches /
+# -d '{"ref": "main"}'
 on:
   workflow_dispatch:
 
