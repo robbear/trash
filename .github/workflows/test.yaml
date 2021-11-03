@@ -4,8 +4,6 @@ name: Test Workflow
 # and can be executed manually through the GitHub website.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '27 15 * * *'
 
 jobs:
   print-something:
