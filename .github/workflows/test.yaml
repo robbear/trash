@@ -11,5 +11,5 @@ jobs:
   print-something:
     runs-on: ubuntu-latest
     steps:
-      - name Do an echo
+      - name: Do an echo
         run: echo "Just printing out something"
