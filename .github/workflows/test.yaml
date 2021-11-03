@@ -5,7 +5,7 @@ name: Test Workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 15 * * *'
+    - cron: '27 15 * * *'
 
 jobs:
   print-something:
